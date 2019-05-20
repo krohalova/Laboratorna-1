@@ -3,7 +3,7 @@ import numpy as np
 
 body_classifier = cv2.CascadeClassifier('Haarcascadeshaarcascade_fullbody.xml')
 
-cap = cv2.VideoCapture('imageswalking.avi')
+cap = cv2.VideoCapture('peoplewalking.MP4')
 while cap.isOpened()
     
     ret, frame = cap.read()
